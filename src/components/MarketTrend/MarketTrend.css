@@ -4,7 +4,7 @@
 .mtParentDiv{
     display: flex;
     flex-direction: row;
-    height:382px;
+    height:243px;
     justify-content: center;
     margin-top: 70px; /* Adjust */
     background-color: blueviolet;
@@ -48,7 +48,7 @@
 }
 
 
-/*  It Has 2 Main Divs  mtCoinInfo   &  mtCoinValue*/
+/*  It Has 3 Main Elems  mtCoinInfo,  hr  &  mtCoinValue*/
 .mtCoinBox{
     width: 297px;
     height: 187px;
@@ -72,5 +72,84 @@
     height : 50px; /* Adjust OG 50px */
 }
 
+.mtCoinInfoChild{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    Width : 181px;
+    line-height: 50px;
+}
+
+/* .mtCoinInfoChild >img{
+    width: 50px;
+    height: 50px;
+
+} */
+
+.mtCInfoName{
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: left;
+    margin: 12.5px 10px;
+}
+
+.mtCInfoFull{
+    width: 53px;
+    height: 20px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 4px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+
+    margin: 14.5px 10px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    color : #1D1429;
+    background-color: #C6C6C6;
+    vertical-align: middle;
+}
+
+
 
 /*  >>> CoinValue CSS <<<< */
+
+.mtCoinValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height : 66px;  */
+}
+
+.mtCoinValueChild > :first-child{
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color : #ECF1F0;
+
+}
+
+.mtCoinValueChild > :nth-child(2){
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B6B6B6;
+}
+
+.chartDiv{
+    width: 100px;
+    height: 53.27px;
+
+}

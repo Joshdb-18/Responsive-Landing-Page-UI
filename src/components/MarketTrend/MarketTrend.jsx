@@ -16,12 +16,12 @@ const MarketTrend = () => {
                 {/* 4 Coins Category Boxes */}
                 <div className='mtBottomDiv'>
                     {/* 1 */}
-                    <div className='mtCoinBox'>
+                    <div className='mtCoinBox'> 
                         <div className='mtCoinInfo'>
                             <div className='mtCoinInfoChild'>
                                 <img src={btc} alt='img' />
-                                <p>BTC</p>
-                                <p>BITCOIN</p>
+                                <p className='mtCInfoName'>BTC</p>
+                                <p className='mtCInfoFull'>BITCOIN</p>
                             </div>
                             <div className='arrowDiv'>
                                 <img src={arrowIcon} alt='arrow'/>
@@ -40,12 +40,12 @@ const MarketTrend = () => {
                     </div> 
 
                     {/* 2 */}
-                    <div className='mtCoinBox'>
+                    <div className='mtCoinBox'> 
                         <div className='mtCoinInfo'>
                             <div className='mtCoinInfoChild'>
-                                <img alt='img' />
-                                <p>BTC</p>
-                                <p>BITCOIN</p>
+                                <img src={btc} alt='img' />
+                                <p className='mtCInfoName'>BTC</p>
+                                <p className='mtCInfoFull'>BITCOIN</p>
                             </div>
                             <div className='arrowDiv'>
                                 <img src={arrowIcon} alt='arrow'/>
@@ -53,17 +53,23 @@ const MarketTrend = () => {
                         </div>
                         <hr/>
                         <div className='mtCoinValue'>
-
+                            <div className='mtCoinValueChild'>
+                                <p>$56,623.54</p>
+                                <p>1.41%</p>
+                            </div>
+                            <div className='chartDiv'>
+                                <img src={btcChart} alt='arrow'/>
+                            </div>
                         </div>
                     </div> 
 
                     {/* 3 */}
-                    <div className='mtCoinBox'>
+                    <div className='mtCoinBox'> 
                         <div className='mtCoinInfo'>
                             <div className='mtCoinInfoChild'>
-                                <img alt='img' />
-                                <p>BTC</p>
-                                <p>BITCOIN</p>
+                                <img src={btc} alt='img' />
+                                <p className='mtCInfoName'>BTC</p>
+                                <p className='mtCInfoFull'>BITCOIN</p>
                             </div>
                             <div className='arrowDiv'>
                                 <img src={arrowIcon} alt='arrow'/>
@@ -71,17 +77,23 @@ const MarketTrend = () => {
                         </div>
                         <hr/>
                         <div className='mtCoinValue'>
-
+                            <div className='mtCoinValueChild'>
+                                <p>$56,623.54</p>
+                                <p>1.41%</p>
+                            </div>
+                            <div className='chartDiv'>
+                                <img src={btcChart} alt='arrow'/>
+                            </div>
                         </div>
                     </div> 
 
                     {/* 4 */}
-                    <div className='mtCoinBox'>
+                    <div className='mtCoinBox'> 
                         <div className='mtCoinInfo'>
                             <div className='mtCoinInfoChild'>
-                                <img alt='img' />
-                                <p>BTC</p>
-                                <p>BITCOIN</p>
+                                <img src={btc} alt='img' />
+                                <p className='mtCInfoName'>BTC</p>
+                                <p className='mtCInfoFull'>BITCOIN</p>
                             </div>
                             <div className='arrowDiv'>
                                 <img src={arrowIcon} alt='arrow'/>
@@ -89,7 +101,13 @@ const MarketTrend = () => {
                         </div>
                         <hr/>
                         <div className='mtCoinValue'>
-
+                            <div className='mtCoinValueChild'>
+                                <p>$56,623.54</p>
+                                <p>1.41%</p>
+                            </div>
+                            <div className='chartDiv'>
+                                <img src={btcChart} alt='arrow'/>
+                            </div>
                         </div>
                     </div> 
 

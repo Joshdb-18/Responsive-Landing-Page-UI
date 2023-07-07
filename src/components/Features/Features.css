@@ -1,0 +1,137 @@
+*{
+    color: #ECF1F0;
+}
+.ftParentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px; /* Adjust */
+    background-color: blueviolet;
+}
+
+.ftChildDiv{
+    width: 1260px;
+    height: 527px; /* Top 32 + Bottom 187 = 219 -> Total 246 -> 27 remaining */
+    background-color: blue;
+    display: block;
+}
+
+.ftTopDiv{
+    text-align: center;
+}
+
+.ftTopDiv > :first-child{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+
+    font-size: 36px;
+    line-height: 44px;
+    color: #ECF1F0;
+    padding: 10px 0px;
+    height:64px;
+}
+
+.ftTopDiv > :nth-child(2){
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #B6B6B6;
+
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0em;
+    height:41px; /* Adjust */
+    /* padding: 10px 0px; */
+    /* background-color: yellow; */
+}
+
+
+.ftBottomDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 69px;
+    /* 24px also there */
+}
+
+.featureBox{
+    width: 297px;
+    height: 343px;
+    padding: 30px 30px 30px 28px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 18px;
+    
+    gap: 10px;
+    background-color: var(--secondary-color);
+}
+
+.featureInfo{
+    width: 238px;
+    height: 283px;
+    gap: 38px;
+    /* background-color: green; */
+}
+
+
+.featureContent{
+    height: 221px;
+    margin-bottom: 37px; /* 27+10 */ 
+    /* background-color: brown; */
+}
+
+.featureContent>img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.featureContDiv{
+    width: 238px;
+    height: 114px;
+    margin-top: 22px;  /* 10+12*/
+    /* background-color: blueviolet; */
+}
+
+.featureContDiv > :first-child{
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.featureContDiv > :nth-child(2){
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #B6B6B6;
+}
+
+
+.featureLink{
+    width: 135px;
+    height: 24px;
+    padding-top: 4px;
+    background-color: black;
+}
+
+.featureLink > a{
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+
+a:hover{
+    color:#ECF1F0;
+}
