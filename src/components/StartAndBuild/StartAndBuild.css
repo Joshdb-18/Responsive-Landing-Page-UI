@@ -1,0 +1,92 @@
+*{
+    color: #ECF1F0;
+}
+.sbParentDiv{
+    display: flex;
+    flex-direction: row;
+    height:382px;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: blueviolet;
+}
+
+
+.sbChildDiv{
+    width: 1260px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*
+@media (max-width: 800px) {
+    .sbChildDiv{
+        flex-direction: column;
+    }
+
+}
+*/
+
+.sbLeftDiv{
+    width: 788px;
+    margin : 40px 0px;
+    /* background-color: yellowgreen; */
+}
+
+.sbLeftChildDiv{
+    padding: 20px 10px;
+}
+.sbLeftChildDiv > :first-child{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ECF1F0;
+    padding: 10px 0px;
+    height:64px;
+    /* background-color: yellow; */
+}
+
+.sbLeftChildDiv > :nth-child(2){
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #B6B6B6;
+
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0em;
+    text-align: left;
+    height:78px;
+    padding: 10px 0px;
+    /* background-color: yellow; */
+}
+
+.sbBtn{
+    background-color: #0FAE96;
+    color: #ECF1F0;
+
+    width: 190px;
+    height: 56px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sbRightDiv{
+    justify-content: end;
+    width: 432px;
+    height: 382px;
+    background-color: red;
+}
+
+.sbImgDiv >img{
+    width: 432px;
+    height: 382px;
+    padding: 0px 10px;
+    background-color: yellow;
+}

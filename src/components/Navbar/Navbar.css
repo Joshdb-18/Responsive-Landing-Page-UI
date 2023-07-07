@@ -1,0 +1,83 @@
+.navMainDiv{
+    max-width: 1,440px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: auto;
+    padding: 30px 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9999;
+    height: 90px;
+    background-color: var(--dark-color);
+    
+}
+
+.navLogo{
+    font-family:'Raleway', sans-serif, Arial;
+    font-weight: 700;
+    font-size: 24px;
+
+    cursor: pointer;
+    height: 35px;
+    margin-bottom: 30px;
+    margin-left: -66px;
+    color: #ECF1F0;
+}
+
+.navUl >li{
+    font-family:'Raleway', sans-serif, Arial;
+    font-weight: 500;
+    font-size: 16px;
+
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    color: #ECF1F0;
+}
+
+.navUl >li:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.navRightSec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    width:205px;
+    height:50px;
+}
+.navRightSec >img{
+    width : 24px;
+    height: 24px;
+}
+
+.langSelect{
+    width: 46px;
+    height: 24px;
+    font-family:'Raleway', sans-serif, Arial;
+    font-weight: 600;
+    background-color: var(--dark-color);
+    border: none;
+    color:#ECF1F0;
+}
+
+.loginBtn{
+    background-color: #0FAE96;
+    color: #ECF1F0;
+    
+    border: none;
+    cursor: pointer;
+    width: 104px;
+    height: 50px;
+    padding: 13px 24px 13px 24px;
+    border-radius: 10px;
+    font-family:'Raleway', sans-serif, Arial;
+    font-weight: 600;
+
+}
+

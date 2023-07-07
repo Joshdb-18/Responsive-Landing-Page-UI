@@ -1,0 +1,76 @@
+*{
+    color: #ECF1F0;
+}
+.mtParentDiv{
+    display: flex;
+    flex-direction: row;
+    height:382px;
+    justify-content: center;
+    margin-top: 70px; /* Adjust */
+    background-color: blueviolet;
+}
+
+.mtChildDiv{
+    width: 1260px;
+    height: 246px; /* Top 32 + Bottom 187 = 219 -> Total 246 -> 27 remaining */
+    background-color: blue;
+    display: block;
+}
+
+
+/* Top Div CSS */
+
+.mtTopDiv{
+    height : 32px; /* Adjust OG 32px */
+    margin-bottom: 2%; /* Adjust OG 10px */
+
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* background-color: red; */
+
+}
+
+
+/* >>>>>>>>>> Bottom Div CSS  <<<<<<<< */
+
+.mtBottomDiv{
+    height : 187px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* background-color: violet; */
+    /* margin-top: 29px; */
+}
+
+
+/*  It Has 2 Main Divs  mtCoinInfo   &  mtCoinValue*/
+.mtCoinBox{
+    width: 297px;
+    height: 187px;
+    padding: 18px 20px 18px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 18px;
+    
+    gap: 17px;
+    background-color: var(--secondary-color);
+    
+}
+
+/*  >>> CoinInfo CSS <<<< */
+
+.mtCoinInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height : 50px; /* Adjust OG 50px */
+}
+
+
+/*  >>> CoinValue CSS <<<< */
