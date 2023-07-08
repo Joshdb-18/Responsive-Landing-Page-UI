@@ -18,6 +18,8 @@
 
 .ftTopDiv{
     text-align: center;
+    height: 115px;
+    background-color: brown;
 }
 
 .ftTopDiv > :first-child{
@@ -27,7 +29,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #ECF1F0;
-    padding: 10px 0px;
+    padding: 10px;
     height:64px;
 }
 
@@ -39,15 +41,18 @@
     font-size: 18px;
     line-height: 28.8px;
     letter-spacing: 0em;
-    height:41px; /* Adjust */
-    /* padding: 10px 0px; */
-    /* background-color: yellow; */
+    height:41px; 
+    padding: 6px;
+    background-color: yellow;
 }
 
+
+/*  >>>> Bottom DIV <<<<  */
 
 .ftBottomDiv{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 69px;
     /* 24px also there */

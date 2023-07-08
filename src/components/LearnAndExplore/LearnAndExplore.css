@@ -1,0 +1,74 @@
+
+.leParentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 127px;  /*(1643 - 989 - 527= 127) */
+    background-color: blueviolet;
+}
+
+.leChildDiv{
+    width: 1260px;
+    height: 142px;
+    background-color:aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px;
+
+    align-items: center; /*To align vertically*/
+
+}
+
+.leContent{
+    width: 536px;
+    height: 102px;
+    margin: 12px;
+    
+    background-color: cornflowerblue;
+
+}
+
+.leTitle{
+
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.leSubTitle{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color : #B6B6B6;
+
+}
+
+.leBtn{
+    width: 207px;
+    height: 56px;
+    padding: 16px 24px ;
+    gap: 10px;
+    background-color: var(--primary-color);
+
+    border-radius: 10px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+}

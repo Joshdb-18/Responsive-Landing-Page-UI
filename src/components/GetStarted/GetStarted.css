@@ -1,0 +1,179 @@
+
+.gsParentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 130px;  /*(2852 - 1952 - 770) */
+    background-color: blueviolet;
+}
+
+.gsChildDiv{
+    width: 1260px;
+    height: 430px;
+    background-color: yellowgreen;
+    display: flex;
+
+    justify-content: space-between;
+    /*
+    padding: 20px 60px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px;
+
+    align-items: center;  */
+
+}
+
+
+/* Main Div 1 */
+.gsLeft{
+    width: 533.5px;
+    height: 239px;
+    gap: 39px;
+    background-color:cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.geText{
+    height: 150px;
+    gap: 8px;
+    background-color:brown;
+}
+
+.gsTitle{
+    height: 64px;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+
+    font-size: 36px;
+    line-height: 44px;
+    background-color: black;
+
+}
+
+.gsSubTitle{
+    height: 78px;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 18px;
+    line-height: 29px;
+    color : #B6B6B6;
+    background-color: chocolate;
+}
+
+
+
+.gsBtn{
+    height: 50px;
+    padding: 0px 400px 0px 0px;
+    gap: 10px;
+
+    /* margin-top: 18px; */
+    background-color: yellow;
+    align-items: end;
+}
+
+.gsBtn>button{
+    width: 190px;
+    height: 50px;
+    padding: 13px 24px 13px 24px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--primary-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+}
+
+
+
+/* Main Div 2 Categories */
+.gsRight{
+
+    width: 533.5px;
+    height:430px;
+    gap:23px;
+    
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.gsCatBox{
+    width: 533.5px;
+    height: 128px;
+    padding: 10px 52px 20px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 18px;
+    
+    gap: 21px;
+    background-color: var(--secondary-color);
+
+    display: flex;
+    align-items: center;
+}
+
+.gsImg{
+    width: 80px;
+    height: 80px;
+}
+
+.gsCatText{
+    width: 338px;
+    height: 98px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gsCatText > :first-child{
+    width: 338px;
+    height: 50px;
+    padding: 10px;
+    gap: 10px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color:#ECF1F0;
+    background-color: brown;
+
+}
+
+.gsCatText > :nth-child(2){
+    width: 338px;
+    height: 48px;
+    padding: 0px 10px;
+
+    gap: 12px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6B6B6;
+    margin-top: -14px;
+
+    background-color: blue;
+}

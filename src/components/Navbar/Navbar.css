@@ -1,8 +1,8 @@
-.navMainDiv{
+/*
+.navParentDiv{
     max-width: 1,440px;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     margin: auto;
     padding: 30px 0px;
     position: fixed;
@@ -12,46 +12,111 @@
     z-index: 9999;
     height: 90px;
     background-color: var(--dark-color);
-    
+}
+*/
+/* align-items: center; */
+
+
+.navParentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 228px;  given to hr tag in App.js */
+
+    position: fixed;
+    height: 90px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9999;
+
+    background-color: yellow;
 }
 
-.navLogo{
-    font-family:'Raleway', sans-serif, Arial;
-    font-weight: 700;
+.navChildDiv{
+    height: 90px;
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+}
+
+
+.navLeftLogo{
+    height: 30px;
+    width: 205px;
+
+    gap: 10px;
+    background-color: darkcyan;
+    cursor: pointer;
+
+}
+
+.navLeftLogo >p{
+    /* padding: 8px 0px; */
+
+    height: 30px;
+    font-family: Raleway, sans-serif;
     font-size: 24px;
-
-    cursor: pointer;
-    height: 35px;
-    margin-bottom: 30px;
-    margin-left: -66px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0em;
+    text-align: left;
     color: #ECF1F0;
 }
 
-.navUl >li{
-    font-family:'Raleway', sans-serif, Arial;
+.navItemsDiv{
+    width: 448px;
+    height: 39px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    align-items: center;
+}
+
+.navItem{
+    font-family: Raleway, sans-serif;
     font-weight: 500;
-    font-size: 16px;
 
-    list-style: none;
-    display: inline-block;
-    padding: 0px 20px;
-    color: #ECF1F0;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 18.7px;
+    cursor: pointer;
 }
 
-.navUl >li:hover{
-    cursor: pointer;
+
+/*
+.navItem:hover{
     color: var(--primary-color);
 }
+*/
+
 
 .navRightSec{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    width: 205px;
+    height: 50px;
+
+    background-color: brown;
+
+    display: flex;
+    justify-content: space-between;
     gap: 10px;
     width:205px;
     height:50px;
 }
-.navRightSec >img{
+
+.langSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width:80px;
+}
+
+.langSection >img{
     width : 24px;
     height: 24px;
 }
@@ -59,17 +124,34 @@
 .langSelect{
     width: 46px;
     height: 24px;
+
     font-family:'Raleway', sans-serif, Arial;
+    font-size: 16px;
     font-weight: 600;
-    background-color: var(--dark-color);
+    line-height: 19px;
+    background-color: var(--dark-color); /* Change */ 
     border: none;
-    color:#ECF1F0;
+    color:#B6B6B6;
+    text-decoration: none;
+}
+
+.langSelect > option{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#B6B6B6;
+    border: none;
+    outline: 0px;
+
 }
 
 .loginBtn{
     background-color: #0FAE96;
     color: #ECF1F0;
-    
+
     border: none;
     cursor: pointer;
     width: 104px;
@@ -78,6 +160,5 @@
     border-radius: 10px;
     font-family:'Raleway', sans-serif, Arial;
     font-weight: 600;
-
 }
 

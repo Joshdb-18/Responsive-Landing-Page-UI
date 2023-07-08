@@ -1,0 +1,244 @@
+.lcParentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 190px;  /*(3472-2852 -430 = 190) */
+    background-color: blueviolet;
+}
+
+.lcChildDiv{
+    width: 1260px; /* OG 1262 */
+    height: 1079px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.lcTopDiv{
+    text-align: center;
+    height: 115px;
+    background-color: brown;
+}
+
+.lcTopDiv > :first-child{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+
+    font-size: 36px;
+    line-height: 44px;
+    color: #ECF1F0;
+    padding: 10px;
+    height:64px;
+}
+
+.lcTopDiv > :nth-child(2){
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #B6B6B6;
+
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0em;
+    height:41px; 
+    padding: 6px;
+    background-color: yellow;
+}
+
+
+/* Mid Div CSS */
+
+
+.lcMidDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 825px;
+}
+
+
+/* Mid Container 1st Div */
+.lcMidFirstDiv{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+
+    height: 391px;
+    /* background-color: aqua; */
+}
+
+/* Big image Div */
+.midFirstDivLeft{
+    
+    width :618px;
+    height: 391px;
+    gap: 10px;
+    background-color: #260144BF; /* Necessary*/
+    padding: 220px 44px 31px 30px;
+    border-radius: 18px;
+    background-image: url("../../images/LearnCrypto/img-1.jpg");
+    background-size: cover;
+    opacity: 0.5;
+
+
+}
+.midFirstDivLeftHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.midFirstDivLeftHead > :first-child{
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+
+    padding: 10px;
+    height: 88px;
+
+}
+
+.midFirstDivLeftHead > :nth-child(2){
+    width: 113px;
+    height: 30px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    
+    color:#B6B6B6;
+    background-color: #261832;
+    vertical-align: middle;
+}
+
+.midFirstDivRight{
+    width :618px;
+    height: 391px;
+    gap :26px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 391px;
+    background-color: green;
+}
+
+
+
+
+/* Mid Container 2nd Div */
+.lcMidSecondDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 391px;
+    background-color: violet;
+}
+
+.articleBox{
+    width: 296px;
+    height: 391px;
+    padding: 0px 0px 16px 0px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 18px;
+    
+    gap: 10px;
+    background-color: var(--secondary-color);
+}
+
+
+.articleBox>img{
+    width: 296px;
+    height: 195px;
+    border-radius : 18px 18px 0px 0px;
+}
+
+.articleContent{
+    height: 180px;
+    padding: 20px;
+    background-color: chocolate;
+}
+
+
+.articleContDiv{
+    height: 140px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grey box CSS */
+.articleContDiv > :first-child{
+    width: 92px;
+    height: 22px;
+    padding: 0px 6px;
+    border-radius: 4px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    
+    color:#B6B6B6;
+    background-color: #261832;
+    vertical-align: middle;
+}
+
+.articleContDiv > :nth-child(2){
+    height: 48px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.articleContDiv > :nth-child(3){
+    height: 44px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #B6B6B6;
+}
+
+
+
+/* Bottom Div CSS */
+
+.lcBottomDiv{
+    height: 19px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+
+    font-size: 16px;
+    line-height: 18.78px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+
+a:hover{
+    color:#ECF1F0;
+}

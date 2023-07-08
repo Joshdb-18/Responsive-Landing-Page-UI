@@ -7,6 +7,7 @@ const Features = () => {
     return (
         <section className='ftParentDiv'>
             <div className='ftChildDiv'>
+                {/* 2 Main Divs */}
                 <div className='ftTopDiv'>
                     <p>CryptoCap Amazing Features</p>
                     <p>Explore sensational features to prepare your best investment in cryptocurrency</p>
