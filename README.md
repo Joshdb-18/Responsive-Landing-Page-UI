@@ -1,4 +1,4 @@
-# CryptoCap - Crypto Currency Trading Platform (Landing page)
+# CryptoCap - Landing page
 
 
 ## Try App Here :-  https://landing-page-crypto-cap.netlify.app/
