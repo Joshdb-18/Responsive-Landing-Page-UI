@@ -83,6 +83,7 @@
     /* margin-top: 18px; */
     background-color: yellow;
     align-items: end;
+    
 }
 
 .gsBtn>button{
@@ -90,6 +91,7 @@
     height: 50px;
     padding: 13px 24px 13px 24px;
     border-radius: 10px;
+    border: none;
     gap: 10px;
     background-color: var(--primary-color);
 

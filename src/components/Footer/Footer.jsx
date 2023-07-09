@@ -43,22 +43,22 @@ const Footer = () => {
                     </div>
 
                     <div className='footRightSubDiv'>
-                        <div className='footTitle'>About Us</div>
+                        <div className='footTitle'>Services</div>
                         <div className='footMenu'>
-                            <div>About</div>
-                            <div>Careers</div>
-                            <div>Blog</div>
-                            <div>Legal & privacy</div>
+                            <div>Aplications</div>
+                            <div>Buy Crypto</div>
+                            <div>Affilliate</div>
+                            <div>Institutional Services</div>
                         </div>
                     </div>
 
                     <div className='footRightSubDiv'>
-                        <div className='footTitle'>About Us</div>
+                        <div className='footTitle'>Learn</div>
                         <div className='footMenu'>
-                            <div>About</div>
-                            <div>Careers</div>
-                            <div>Blog</div>
-                            <div>Legal & privacy</div>
+                            <div>What is Cryptocurency?</div>
+                            <div>Crypto Basic</div>
+                            <div>Tips and Tutorials</div>
+                            <div>Market Update</div>
                         </div>
                     </div>
                 </div>

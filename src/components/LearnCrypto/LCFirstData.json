@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "img": "/images/LearnCrypto/img-2.png",
+        "subhead": "CRYPTO BASIC",
+        "heading": "What is cryptocurrency? all you need to know",
+        "description": "Cryptocurrencies are basically digital assets. It is secured by cryptography.. "
+    },
+    {
+        "id": 2,
+        "img": "/images/LearnCrypto/img-3.png",
+        "subhead": "CRYPTO BASIC",
+        "heading": "Can crypto really replace your bank account?",
+        "description": "From direct deposit to earning yield, key ways crypto can help you take control.."
+    }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 import './LearnCrypto.css';
-import img4 from '.././../images/LearnCrypto/img-4.png'
+import Data1 from './LCFirstData.json';
+import Data2 from './LCSecondData.json';
 const LearnCrypto = () => {
     return (
         <section className='lcParentDiv'>
@@ -25,27 +26,22 @@ const LearnCrypto = () => {
                         </div>
 
                         <div className='midFirstDivRight'>
-                            <div className='articleBox'> 
-                                <img src={img4} alt='img' />
-                                <div className='articleContent'>
-                                    <div className='articleContDiv'>
-                                        <p>TIPS & TRICKS</p>
-                                        <p>How to setup crypto wallet in your account</p>
-                                        <p>A crypto wallet is a place where you can securely keep your crypto.. </p>
-                                    </div>
-                                </div>
-                            </div> 
-
-                            <div className='articleBox'> 
-                                <img src={img4} alt='img' />
-                                <div className='articleContent'>
-                                    <div className='articleContDiv'>
-                                        <p>TIPS & TRICKS</p>
-                                        <p>How to setup crypto wallet in your account</p>
-                                        <p>A crypto wallet is a place where you can securely keep your crypto.. </p>
-                                    </div>
-                                </div>
-                            </div> 
+                            {
+                                Data1.map(data =>{
+                                    return (
+                                        <div className='articleBox' key={data.id}> 
+                                            <img src={data.img} alt='img' />
+                                            <div className='articleContent'>
+                                                <div className='articleContDiv'>
+                                                    <p>{data.subhead}</p>
+                                                    <p>{data.heading}</p>
+                                                    <p>{data.description} </p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    )
+                                })
+                            }
                         </div>
 
                     </div>
@@ -53,53 +49,25 @@ const LearnCrypto = () => {
                     
                     {/* 2nd Sub Div */}
                     <div className='lcMidSecondDiv'>
-                        {/* 1 */}
-                        <div className='articleBox'> 
-                            <img src={img4} alt='img' />
-                            <div className='articleContent'>
-                                <div className='articleContDiv'>
-                                    <p>TIPS & TRICKS</p>
-                                    <p>How to setup crypto wallet in your account</p>
-                                    <p>A crypto wallet is a place where you can securely keep your crypto.. </p>
-                                </div>
-                            </div>
-                        </div> 
+                        {/* Mapped */}
+                        
+                        {
+                                Data2.map(data =>{
+                                    return (
+                                        <div className='articleBox' key={data.id}> 
+                                            <img src={data.img} alt='img' />
+                                            <div className='articleContent'>
+                                                <div className='articleContDiv'>
+                                                    <p>{data.subhead}</p>
+                                                    <p>{data.heading}</p>
+                                                    <p>{data.description} </p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    )
+                                })
+                            }
 
-                        {/* 2 */}
-                        <div className='articleBox'> 
-                            <img src={img4} alt='img' />
-                            <div className='articleContent'>
-                                <div className='articleContDiv'>
-                                    <p>TIPS & TRICKS</p>
-                                    <p>How to setup crypto wallet in your account</p>
-                                    <p>A crypto wallet is a place where you can securely keep your crypto.. </p>
-                                </div>
-                            </div>
-                        </div> 
-
-                        {/* 3 */}
-                        <div className='articleBox'> 
-                            <img src={img4} alt='img' />
-                            <div className='articleContent'>
-                                <div className='articleContDiv'>
-                                    <p>TIPS & TRICKS</p>
-                                    <p>How to setup crypto wallet in your account</p>
-                                    <p>A crypto wallet is a place where you can securely keep your crypto.. </p>
-                                </div>
-                            </div>
-                        </div> 
-
-                        {/* 4 */}
-                        <div className='articleBox'> 
-                            <img src={img4} alt='img' />
-                            <div className='articleContent'>
-                                <div className='articleContDiv'>
-                                    <p>TIPS & TRICKS</p>
-                                    <p>How to setup crypto wallet in your account</p>
-                                    <p>A crypto wallet is a place where you can securely keep your crypto.. </p>
-                                </div>
-                            </div>
-                        </div> 
                     </div>
                 </div>
 

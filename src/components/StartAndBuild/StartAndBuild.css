@@ -64,6 +64,10 @@
 }
 
 .sbBtn{
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
     background-color: #0FAE96;
     color: #ECF1F0;
 
