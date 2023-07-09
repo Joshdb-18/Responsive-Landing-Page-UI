@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 190px;  /*(3472-2852 -430 = 190) */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .lcChildDiv{
@@ -18,7 +18,7 @@
 .lcTopDiv{
     text-align: center;
     height: 115px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .lcTopDiv > :first-child{
@@ -42,7 +42,7 @@
     letter-spacing: 0em;
     height:41px; 
     padding: 6px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 
@@ -116,7 +116,7 @@
     line-height: 22px;
     
     color:#B6B6B6;
-    background-color: #261832;
+    background-color: #270B3E;
     vertical-align: middle;
 }
 
@@ -131,7 +131,7 @@
     justify-content: space-between;
 
     height: 391px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 
@@ -145,7 +145,7 @@
     justify-content: space-between;
 
     height: 391px;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .articleBox{
@@ -153,13 +153,12 @@
     height: 391px;
     padding: 0px 0px 16px 0px;
 
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFF;
+    border: 1px solid;
+    border-color: #FFFFFF0D; 
     border-radius: 18px;
     
     gap: 10px;
-    background-color: var(--secondary-color);
+    background-color: #160622;
 }
 
 
@@ -172,13 +171,13 @@
 .articleContent{
     height: 180px;
     padding: 20px;
-    background-color: chocolate;
+    /* background-color: chocolate; */
 }
 
 
 .articleContDiv{
     height: 140px;
-    background-color: black;
+    /* background-color: black; */
 
     display: flex;
     flex-direction: column;

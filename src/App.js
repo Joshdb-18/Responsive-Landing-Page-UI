@@ -20,8 +20,7 @@ function App() {
       <MarketUpdate/>
       <GetStarted/>
       <LearnCrypto/>
-      {/* #FFFFFF */}
-      <hr style={{color : 'black', fontSize : '1px', marginTop: '228px'}}/>
+      {/* <hr style={{color : '#FFFFFF', fontSize : '0.5px', marginTop: '228px'}}/> */}
       <Footer/>
     </div>
   );

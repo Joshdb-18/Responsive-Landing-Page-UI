@@ -5,13 +5,13 @@
     height:243px;
     justify-content: center;
     margin-top: 58px; /*  560 - 120-382 = */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .mtChildDiv{
     width: 1260px;
     height: 243px; 
-    background-color: blue;
+    /* background-color: blue; */
     display: block;
 }
 
@@ -51,13 +51,15 @@
     width: 297px;
     height: 187px;
     padding: 18px 20px 18px 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFF;
+
     border-radius: 18px;
+
+    border: 1px solid;
+    border-color: #FFFFFF0D; 
+    background: linear-gradient(to right,  #1D0E29, #1C062E, #1C062E);
     
     gap: 17px;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     
 }
 
@@ -74,7 +76,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
+    /* background-color: red; */
     Width : 181px;
     line-height: 50px;
 }
@@ -95,7 +97,7 @@
 }
 
 .mtCInfoFull{
-    
+
     height: 20px;
     padding: 4px 6px 4px 6px;
     border-radius: 4px;

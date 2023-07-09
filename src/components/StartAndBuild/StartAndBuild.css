@@ -5,16 +5,18 @@
     height:382px;
     justify-content: center;
     margin-top: 120px;
-    background-color: blueviolet;
+    
+    /* background-color: blueviolet; */
 }
 
 
 .sbChildDiv{
     width: 1260px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* background: radial-gradient(circle, #11011F, #130122, #12011F, #170129, #220131, #1E0128, #160121,#130122, #11011F  ); */
 }
 
 /*
@@ -84,12 +86,12 @@
     justify-content: end;
     width: 432px;
     height: 382px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .sbImgDiv >img{
     width: 432px;
     height: 382px;
     padding: 0px 10px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }

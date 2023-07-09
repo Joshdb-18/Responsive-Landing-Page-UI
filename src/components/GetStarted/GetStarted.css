@@ -4,14 +4,13 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 130px;  /*(2852 - 1952 - 770) */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    /* background: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 ); */
 }
 
 .gsChildDiv{
     width: 1260px;
-    
     height: 430px;
-    background-color: yellowgreen;
     display: flex;
 
     justify-content: space-between;
@@ -24,6 +23,8 @@
     border-radius: 12px;
 
     align-items: center;  */
+    /* background: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 ); */
+    /* background-color: yellowgreen; */
 
 }
 
@@ -33,16 +34,20 @@
     width: 533.5px;
     height: 239px;
     gap: 39px;
-    background-color:cadetblue;
+    
     display: flex;
     flex-direction: column;
+    /* background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 ); */
+    /* background-color:cadetblue; */
+    
 }
 
 
 .geText{
     height: 150px;
     gap: 8px;
-    background-color:brown;
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
+    /* background-color:brown; */
 }
 
 .gsTitle{
@@ -55,7 +60,8 @@
 
     font-size: 36px;
     line-height: 44px;
-    background-color: black;
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
+    /* background-color: black; */
 
 }
 
@@ -70,7 +76,8 @@
     font-size: 18px;
     line-height: 29px;
     color : #B6B6B6;
-    background-color: chocolate;
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
+    /* background-color: chocolate; */
 }
 
 
@@ -81,7 +88,8 @@
     gap: 10px;
 
     /* margin-top: 18px; */
-    background-color: yellow;
+    background: radial-gradient(to right, #12011F, #150121, #140121, #130122, #11011F);
+    /* background-color: yellow; */
     align-items: end;
     
 }
@@ -111,7 +119,9 @@
     height:430px;
     gap:23px;
     
-    background-color: aqua;
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
+    /* background-color: aqua; */
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -122,16 +132,20 @@
     width: 533.5px;
     height: 128px;
     padding: 10px 52px 20px 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFF;
     border-radius: 18px;
     
     gap: 21px;
-    background-color: var(--secondary-color);
+    border: 1px solid;
+    border-color: #FFFFFF0D;
 
     display: flex;
     align-items: center;
+
+    border: 1px solid;
+    border-color: #FFFFFF0D; 
+    background: linear-gradient(to right,  #1D0E29, #1C062E, #1C062E);
+
+    /* background-color: var(--secondary-color); */
 }
 
 .gsImg{
@@ -142,11 +156,11 @@
 .gsCatText{
     width: 338px;
     height: 98px;
-    background-color: black;
+    /* background-color: black; */
 
     display: flex;
     flex-direction: column;
-
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
 }
 
 .gsCatText > :first-child{
@@ -160,7 +174,8 @@
     font-size: 20px;
     line-height: 30px;
     color:#ECF1F0;
-    background-color: brown;
+    /* background-color: brown; */
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
 
 }
 
@@ -178,5 +193,7 @@
     color: #B6B6B6;
     margin-top: -14px;
 
-    background-color: blue;
+
+    background-color: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
+    /* background-color: blue; */
 }

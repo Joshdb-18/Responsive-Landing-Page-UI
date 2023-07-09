@@ -3,14 +3,14 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 167px; /*  1952 - 1643- 142 = 167 */
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color); */
 }
 
 .muChildDiv{
     width: 1260px;
 
     height: 770px; 
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,7 +42,7 @@
     height: 95px;
     gap: 22px;
 
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,7 +67,7 @@
 
     display: flex;
     justify-content: space-between;
-    background-color: var(--dark-color); 
+    /* background-color: var(--dark-color);  */
 }
 
 
@@ -84,14 +84,17 @@
     font-size: 16px;
     line-height: 24px;
     padding: 10px 12px;
-    border: 1px solid;
+
     border-radius: 6px;
+    
+    border: 1px solid;
     border-color: #FFFFFF0D; /* Fixed -> No Change*/
+    background-color: #1D0E29; /* Fixed -> No Change*/
     font-family: Roboto, sans-serif;
     font-weight: 400;
 
     color: var(--grey-font);
-    background-color: #1D0E29; /* Fixed -> No Change*/
+    
 }
 
 /* Different CSS from other 6  options */
@@ -214,7 +217,7 @@
     width :483px;
     height : 44px;
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     align-items: center;
 }
 
@@ -223,7 +226,7 @@
     height: 32px;
     padding: 4px 12px 4px 0px;
     gap: 10px;
-    background-color: brown;
+    /* background-color: brown; */
 
 }
 
@@ -262,7 +265,7 @@
     width: 343px;
 
     display: flex;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     align-items: center;
 
 }
@@ -323,7 +326,7 @@
     margin: 4px 0px 4px 75px;
     
 
-    background-color: #0FAE96;
+    background-color: var(--primary-color);
     color: #FFFFFF;
 
     border: none;
@@ -352,10 +355,12 @@
 
     font-size: 16px;
     line-height: 18.78px;
-    color: var(--primary-color);
     text-decoration: underline;
 }
 
+a{
+    color: var(--primary-color);
+}
 
 
 a:hover{

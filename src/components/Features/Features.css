@@ -6,20 +6,20 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 186px; /* 989-560-243 =  */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .ftChildDiv{
     width: 1260px;
     height: 527px; /* Top 32 + Bottom 187 = 219 -> Total 246 -> 27 remaining */
-    background-color: blue;
+    /* background-color: blue; */
     display: block;
 }
 
 .ftTopDiv{
     text-align: center;
     height: 115px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .ftTopDiv > :first-child{
@@ -43,7 +43,7 @@
     letter-spacing: 0em;
     height:41px; 
     padding: 6px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 
@@ -62,13 +62,14 @@
     width: 297px;
     height: 343px;
     padding: 30px 30px 30px 28px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFF;
     border-radius: 18px;
+
+    border: 1px solid;
+    border-color: #FFFFFF0D; 
+    background: linear-gradient(to right,  #1D0E29, #1C062E, #1C062E);
     
     gap: 10px;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
 }
 
 .featureInfo{
@@ -123,7 +124,7 @@
     width: 135px;
     height: 24px;
     padding-top: 4px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .featureLink > a{

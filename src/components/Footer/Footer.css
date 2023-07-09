@@ -3,7 +3,13 @@
     flex-direction: row;
     justify-content: center;
     /* margin-top: 228px;  given to hr tag in App.js */
-    background-color: yellow;
+    /* background-color: yellow; */
+
+
+
+    border-top: 2px solid;
+    border-color: #FFFFFF0D; 
+    margin-top: 228px;
 }
 
 .footChild{
@@ -12,7 +18,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blue;
+    /* background-color: blue; */
     align-items: center;
 }
 
@@ -25,13 +31,13 @@
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .footLeftLogo{
     height: 30px;
     gap: 10px;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 
 }
 
@@ -52,7 +58,7 @@
     height: 80px;
     gap :32px;
 
-    background-color: green;
+    /* background-color: green; */
 
     display: flex;
     flex-direction: column;
@@ -85,7 +91,7 @@
 
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .footRightSubDiv{
@@ -93,7 +99,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
 }
 
 
@@ -114,7 +120,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .footMenu >div{

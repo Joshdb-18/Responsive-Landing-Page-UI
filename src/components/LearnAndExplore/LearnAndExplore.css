@@ -4,21 +4,20 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 127px;  /*(1643 - 989 - 527= 127) */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .leChildDiv{
     width: 1260px;
     height: 142px;
-    background-color:aqua;
+    /* background-color:aqua; */
     display: flex;
     justify-content: space-between;
     padding: 20px 60px;
-
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FFFFFF;
     border-radius: 12px;
+
+    border: 1px solid;
+    border-color: #FFFFFF0D;    
 
     align-items: center; /*To align vertically*/
 
@@ -29,7 +28,7 @@
     height: 102px;
     margin: 12px;
     
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 
 }
 

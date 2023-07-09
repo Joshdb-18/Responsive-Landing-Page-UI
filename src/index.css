@@ -19,7 +19,8 @@ body{
   padding: 0;
   font-family: 'Raleway', sans-serif, Arial;
   color: #ECF1F0;
-  background: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
+  /* background: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 ); */
+  background: linear-gradient(to right, #12011F, #150121, #140121, #130122, #11011F );
 }
 
 .wrapper {
