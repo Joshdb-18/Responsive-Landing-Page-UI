@@ -1,3 +1,363 @@
 .muParentDiv{
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 167px; /*  1952 - 1643- 142 = 167 */
+    background-color: var(--dark-color);
+}
+
+.muChildDiv{
+    width: 1260px;
+
+    height: 770px; 
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* 1 */
+
+.muHeader{
+
+    height: 44px;
+    gap: 10px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+}
+.muHeader>p{
+    color: var(--white-font);
+}
+
+
+/* /*  2 Category Div  /* /* */
+
+
+.muCategoryDiv{
+    height: 95px;
+    gap: 22px;
+
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.muCatTitle{
+    height: 29px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color : var(--grey-font)
+}
+
+.muCatTitle> p{
+    color : var(--grey-font)
+}
+
+.muCatSubDiv{
+    height: 44px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-color); 
+}
+
+
+.muCatSubLeft{
+    width: 701px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.muCatSubLeft > p {
+    height: 44px;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 12px;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: #FFFFFF0D; /* Fixed -> No Change*/
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    color: var(--grey-font);
+    background-color: #1D0E29; /* Fixed -> No Change*/
+}
+
+/* Different CSS from other 6  options */
+.muCatSubLeft > :first-child{
+
+    font-weight: 500;
+    
+    color: #211631;
+    background-color: #EAEAEA;;
+    border-color: #EAEAEA;
+}
+
+
+.muCatSubRight{
+    width: 282px;
+    padding: 10px;
+    border-radius: 6px;
+    gap: 10px;
+
+    border: 1px solid;
+    border-color: #FFFFFF1A; /* Fixed -> No Change*/
+    background-color: #160C24; /* Fixed -> No Change*/
+}
+
+.searchDiv{
+    width: 126px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchDiv> p{
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color : var(--grey-font)
+}
+
+
+/* /*  3 Table Div /* /*  */
+
+
+.muTableDiv{
+    height: 499px;
+
+}
+
+.tHeadDiv{
+    height: 62.38px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px 16px 40px;
+
+    border: 1px solid #FFFFFF0D;
+    border-color: #FFFFFF1A; /* Fixed -> No Change*/
+    background-color: #160622; /* Fixed -> No Change*/
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+.tHeadLeft{
+    width: 129px;
+    height: 19px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tHeadLeft >p{
+    color: var(--grey-font);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--grey-font);
+    
+}
+
+.tHeadRight{
+    width: 627px;
+    height: 19px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.tHeadRight >p{
+    color: var(--grey-font);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--grey-font);
+}
+
+
+/* Table Body CSS */
+
+.tBodyDiv{
+
+    height: 62.38px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 40px 16px 40px;
+
+    align-items: center;
+
+    border: 1px solid #FFFFFF0D;
+    border-color: #FFFFFF1A; /* Fixed -> No Change*/
+    background-color: #160622; /* Fixed -> No Change*/
+    border-radius: 10px, 10px, 10px, 30px;
+}
+
+
+.tBodyLeft{
+    width :483px;
+    height : 44px;
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.tBodyNo{
+    width: 74px;
+    height: 32px;
+    padding: 4px 12px 4px 0px;
+    gap: 10px;
+    background-color: brown;
+
+}
+
+.tBodyNo >p{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-font);
+}
+
+
+.vl {
+    border-left: 1px solid var(--grey-font);
+    height: 24px;
+    border-radius: 2px;
+}
+    
+    
+.tBodyName{
+
+}
+
+
+.tBodyCoinsDiv{
+    width: 409px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.tBodyCoinsData{
+    width: 343px;
+
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+
+}
+
+.tBodyCoinsData > div:first-child,
+.tBodyCoinsData > div:nth-child(3)
+{
+    padding: 4px 10px 4px 0px;
+    gap: 10px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-font);
+
+}
+
+
+.tBodyRight{
+    width : 686px;
+    height : 40px;
+
+    display: flex;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+
+.tBodyRight > p:first-child{
+    width : 189px;
+    margin: 4px 10px 4px 60px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-font);
+}
+
+.tBodyRight > p:nth-child(2){
+    margin: 4px 60px 4px 0px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-font);
+}
+
+.tBodyRight > img{
+    margin: 4px 60px 4px 75px;
+}
+
+.tBodyRight > button{
+    margin: 4px 0px 4px 75px;
+    
+
+    background-color: #0FAE96;
+    color: #FFFFFF;
+
+    border: none;
+    cursor: pointer;
+    width: 92px;
+    height: 32px;
+    padding: 4px 24px 4px 24px;
+    border-radius: 10px;
+    font-family:'Raleway', sans-serif, Arial;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*  4 */
+
+
+.muLink{
+    height:39px;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+
+    font-size: 16px;
+    line-height: 18.78px;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+
+
+a:hover{
+    color:#ECF1F0;
 }

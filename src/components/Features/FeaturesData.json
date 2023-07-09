@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "/images/features/feature-image 1.png",
+        "heading": "Manage Portfolio",
+        "description": "Buy and sell popular digital currencies, keep track of them in the one place."
+    },
+    {
+        "id": 2,
+        "img": "/images/features/feature-image 2.png",
+        "heading": "Protected Securely",
+        "description": "All cash balances are covered by FDIC insurance, up to a maximum of $250,000."
+    },
+    {
+        "id": 3,
+        "img": "/images/features/feature-image 3.png",
+        "heading": "Cryptocurrency Variety",
+        "description": "Supports a variety of the most popular digital currencies and always uptodate."
+    },
+    {
+        "id": 4,
+        "img": "/images/features/feature-image 4.png",
+        "heading": "Learn Best Practice",
+        "description": "Easy to know how to cryptocurrency works and friendly to newbie."
+    }
+]

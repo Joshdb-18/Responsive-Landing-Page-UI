@@ -1,6 +1,8 @@
 import React from 'react';
 import './GetStarted.css';
 import gs1Img from '../../images/getStarted-1.png';
+import gs2Img from '../../images/getStarted-2.png';
+import gs3Img from '../../images/getStarted-3.png';
 
 const GetStarted = () => {
     return (
@@ -30,19 +32,19 @@ const GetStarted = () => {
 
                     {/* Div 2 */}
                     <div className='gsCatBox'>
-                        <img className='gsImg' src={gs1Img} alt='img' />
+                        <img className='gsImg' src={gs2Img} alt='img' />
                         <div className='gsCatText'>
-                            <p>Create Your Account</p>
-                            <p>Your account and personal identity are guaranteed safe.</p>
+                            <p>Connect Bank Account</p>
+                            <p>Connect the bank account to start transactions.</p>
                         </div>
                     </div>
 
                     {/* Div 3 */}
                     <div className='gsCatBox'>
-                        <img className='gsImg' src={gs1Img} alt='img' />
+                        <img className='gsImg' src={gs3Img} alt='img' />
                         <div className='gsCatText'>
-                            <p>Create Your Account</p>
-                            <p>Your account and personal identity are guaranteed safe.</p>
+                            <p>Start Build Portfolio</p>
+                            <p>Buy and sell popular currencies and keep track of them.</p>
                         </div>
                     </div>
 

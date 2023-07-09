@@ -1,0 +1,128 @@
+.footParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 228px;  given to hr tag in App.js */
+    background-color: yellow;
+}
+
+.footChild{
+    width: 1260px;
+    height: 297px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+}
+
+.footLeftDiv{
+    width: 287px;
+    height: 175px;
+    gap: 65px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: brown;
+}
+
+.footLeftLogo{
+    height: 30px;
+    gap: 10px;
+    background-color: darkcyan;
+
+}
+
+.footLeftLogo >p{
+    /* padding: 8px 0px; */
+
+    height: 30px;
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ECF1F0;
+}
+
+.footLeftSoCo{
+    height: 80px;
+    gap :32px;
+
+    background-color: green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialDiv{
+    height: 24px;
+    width:  132px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    height: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #B6B6B6;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*   >>>> Right Main Div CSS <<<< */
+.footRightDiv{
+    width: 732px;
+    height: 198px;
+    gap: 65px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footRightSubDiv{
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+.footTitle{
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footMenu{
+    height: 156px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footMenu >div{
+    height: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #B6B6B6;
+
+    font-size: 16px;
+    line-height: 24px;
+}

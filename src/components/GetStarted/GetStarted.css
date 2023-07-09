@@ -9,6 +9,7 @@
 
 .gsChildDiv{
     width: 1260px;
+    
     height: 430px;
     background-color: yellowgreen;
     display: flex;

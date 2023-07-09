@@ -4,13 +4,13 @@
     flex-direction: row;
     height:243px;
     justify-content: center;
-    margin-top: 70px; /* Adjust */
+    margin-top: 58px; /*  560 - 120-382 = */
     background-color: blueviolet;
 }
 
 .mtChildDiv{
     width: 1260px;
-    height: 246px; /* Top 32 + Bottom 187 = 219 -> Total 246 -> 27 remaining */
+    height: 243px; 
     background-color: blue;
     display: block;
 }
@@ -95,7 +95,7 @@
 }
 
 .mtCInfoFull{
-    width: 53px;
+    
     height: 20px;
     padding: 4px 6px 4px 6px;
     border-radius: 4px;

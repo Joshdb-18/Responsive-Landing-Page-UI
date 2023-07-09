@@ -1,6 +1,4 @@
-*{
-    color: #ECF1F0;
-}
+
 .sbParentDiv{
     display: flex;
     flex-direction: row;
@@ -75,6 +73,7 @@
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 10px;
+    border: none;
 }
 
 .sbRightDiv{

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "symbol": "BTC",
+        "name": "BITCOIN",
+        "img": "/images/marketTrend/btc-ic.png",
+        "value": "$56,623.54",
+        "percent": "1.41%",
+        "chart": "/images/marketTrend/btc-chart.png"
+    },
+    {
+        "id": 2,
+        "symbol": "ETH",
+        "name": "ETHEREUM",
+        "img": "/images/marketTrend/eth-ic.png",
+        "value": "$4,267.90",
+        "percent": "2.22%",
+        "chart": "/images/marketTrend/eth-chart.png"
+    },
+    {
+        "id": 3,
+        "symbol": "BNB",
+        "name": "BINANCE",
+        "img": "/images/marketTrend/bnb-ic.png",
+        "value": "$587.74",
+        "percent": "0.82%",
+        "chart": "/images/marketTrend/bnb-chart.png"
+    },
+    {
+        "id": 4,
+        "symbol": "USDT",
+        "name": "TETHER",
+        "img": "/images/marketTrend/usdt-ic.png",
+        "value": "$0.9998",
+        "percent": "0,03%",
+        "chart": "/images/marketTrend/usdt-chart.png"
+    }
+]

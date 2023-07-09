@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "no": 1,
+        "symbol": "BTC",
+        "name": "BITCOIN",
+        "img": "/images/marketUpdate/btc-ic.png",
+        "value": "$56,623.54",
+        "percent": "1.41%",
+        "chart": "/images/marketUpdate/btc-chart.png"
+    },
+    {
+        "id": 2,
+        "no": 2,
+        "symbol": "ETH",
+        "name": "ETHEREUM  |",
+        "img": "/images/marketUpdate/eth-ic.png",
+        "value": "$4,267.90",
+        "percent": "2.22%",
+        "chart": "/images/marketUpdate/eth-chart.png"
+    },
+    {
+        "id": 3,
+        "no": 3,
+        "symbol": "BNB",
+        "name": "BINANCE",
+        "img": "/images/marketUpdate/bnb-ic.png",
+        "value": "$587.74",
+        "percent": "0.82%",
+        "chart": "/images/marketUpdate/bnb-chart.png"
+    },
+    {
+        "id": 4,
+        "no": 4,
+        "symbol": "USDT",
+        "name": "TETHER",
+        "img": "/images/marketUpdate/usdt-ic.png",
+        "value": "$0.9998",
+        "percent": "0,03%",
+        "chart": "/images/marketUpdate/usdt-chart.png"
+    },
+    {
+        "id": 5,
+        "no": 5,
+        "symbol": "SOL",
+        "name": "Solana",
+        "img": "/images/marketUpdate/solana-ic.png",
+        "value": "$213.67",
+        "percent": "-0.53%",
+        "chart": "/images/marketUpdate/solana-chart.png"
+    },
+    {
+        "id": 6,
+        "no": 6,
+        "symbol": "XRP",
+        "name": "XRP",
+        "img": "/images/marketUpdate/xrp-ic.png",
+        "value": "$1.04",
+        "percent": "-0.44%",
+        "chart": "/images/marketUpdate/xrp-chart.png"
+    },
+    {
+        "id": 7,
+        "no": 7,
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "img": "/images/marketUpdate/usd-ic.png",
+        "value": "$1.00",
+        "percent": "-0.03%",
+        "chart": "/images/marketUpdate/usd-chart.png"
+    }
+]
