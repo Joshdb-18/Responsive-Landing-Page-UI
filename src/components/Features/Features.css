@@ -1,6 +1,7 @@
 *{
     color: #ECF1F0;
 }
+
 .ftParentDiv{
     display: flex;
     flex-direction: row;
@@ -140,4 +141,82 @@
 
 a:hover{
     color:#ECF1F0;
+}
+
+
+
+/*  Tablet media */
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .ftParentDiv{
+        height: 135vh;
+        margin-top: 410px; /* 989-560-243 =  */
+        /* background-color: blueviolet; */
+    }
+    
+    .ftChildDiv{
+        width: 88%;
+        /* background-color: rgb(78, 78, 198); */
+    }
+
+    .ftTopDiv {
+        height: 13vh;
+        /* background-color: yellow; */
+    }
+
+    .featureBox{
+        margin-bottom : 55px;
+    }
+}
+
+/* Mobile Media */
+
+@media screen and (max-width: 426px){
+
+    .ftParentDiv{
+        height: 250vh;
+        margin-top: 800px; 
+        /* background-color: blue; */
+    }
+    
+    .ftChildDiv{
+        width: 88%;
+
+        /* background-color: rgb(78, 78, 198); */
+        display: block;
+    }
+
+    .ftTopDiv > :first-child {
+        font-size: 1.5rem;
+        line-height: 40px;
+        color: #ECF1F0;
+        padding: 10px;
+        height: 68px;
+    }
+
+    .ftTopDiv > :nth-child(2) {
+        font-size: 14px;
+        line-height: 28.8px;
+        letter-spacing: 0em;
+        height: 35px;
+        padding: 6px;
+        /* background-color: yellow; */
+    }
+
+
+    .ftBottomDiv{
+        width: 88vw;
+        height : 5%; 
+        display: grid;
+        grid-template-columns: 1fr ; 
+        gap: 2rem; 
+
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .featureBox{
+        margin: auto;
+    }
+
 }

@@ -34,7 +34,20 @@ const Navbar = () => {
               <button className='loginBtn' >Login</button>
             </div>
           </div>
+
+          {/* Mobile Nav */}
+          <nav className="mobileNav">
+            <div className='mobLogo'>
+              <p>Crypto<span style={{ color: "var(--primary-color)" }}>Cap</span></p>
+            </div>
+            <i className="bi bi-list" style={{fontSize : '3rem'}}></i>
+            
+          </nav>
+
+
         </header>
+
+
       </>
     );
 }

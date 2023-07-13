@@ -54,6 +54,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 825px;
+    /* background-color: gold; */
 }
 
 
@@ -235,9 +236,235 @@
     line-height: 18.78px;
     color: var(--primary-color);
     text-decoration: underline;
+    /* background-color: aqua; */
 }
 
 
 a:hover{
     color:#ECF1F0;
 }
+
+
+/*  Tablet media */
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+
+    .lcParentDiv{
+        margin-top: 120px;
+        /* background-color: blueviolet; */
+    }
+
+    .lcChildDiv{
+        width: 88%;
+        height: 280vh; 
+        /* background-color: blue; */
+    }
+
+    .lcTopDiv{
+        height: 17vh;
+    } 
+
+
+    .lcMidDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 257vh;
+        /* background-color: gold; */
+        width: 100%;
+    }
+
+    .lcMidFirstDiv{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        /* display: grid;
+        grid-template-rows: 1fr 1fr; 
+        grid-template-columns: 1fr 1fr;  */
+        /* background-color: skyblue; */
+        height: 125vh;
+        
+        
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+        
+    }
+
+    .midFirstDivLeft{
+        grid-column: 1 / 3;
+        width: 100%;
+        margin: auto;
+        height: 55vh;
+        
+    }
+
+    .midFirstDivRight{
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        /* padding: 0px 20px; */
+        /* background-color: darkmagenta; */
+        grid-column: 2 / 2;
+    }
+
+    .articleBox{
+        width: 47%;
+    }
+
+    .articleBox>img{
+        width: 100%;
+    }
+
+
+    .lcMidSecondDiv{
+        /* background-color: lightcoral; */
+        height: 127vh;
+    }
+
+
+}
+
+
+/* Mobile Media */
+
+@media screen and (max-width: 426px){
+
+    .lcParentDiv{
+        margin-top: 120px;
+        /* background-color: blueviolet; */
+    }
+
+    .lcChildDiv{
+        width: 88%;
+        height: 260vh; 
+        /* background-color: blue; */
+    }
+
+    .lcTopDiv{
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } 
+
+    .lcTopDiv > :first-child {
+        font-size: 2rem;
+        line-height: 2rem; 
+    }
+
+    .lcTopDiv > :nth-child(2) {
+        font-size: 1rem;
+        line-height: 1.2rem; 
+        height: 2.5rem;
+    }
+
+    .lcMidDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 230vh;
+        /* background-color: gold; */
+        width: 100%;
+    }
+
+    .lcMidFirstDiv{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        /* background-color: skyblue; */
+        height: 115vh;
+
+    }
+
+    .midFirstDivLeft{
+        grid-column: 1 / 3;
+        width: 100%;
+        margin: auto;
+        height: 55vh;
+        
+    }
+
+    .midFirstDivLeftHead > :first-child {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding: 0px;
+        height: 4rem;
+    }
+
+    .midFirstDivLeftHead > :nth-child(2) {
+        width: 7rem;
+        height: 1.7rem;
+        padding: 4px 8px;
+        margin-left: 0;
+        font-size: 0.8rem;
+        line-height: 22px;
+    }
+
+    .midFirstDivRight{
+        width: 100%;
+        height: 50vh;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        /* padding: 0px 20px; */
+        /* background-color: darkmagenta; */
+        grid-column: 2 / 2;
+        gap: 0px;
+    }
+
+    .articleBox{
+        width: 48%;
+        height: 50vh;
+    }
+
+    .articleBox>img{
+        width: 100%;
+        height: 20vh;
+    }
+
+    .articleContent{
+        padding: 5px;;
+    }
+    
+    .articleContDiv > :first-child{
+        width: 75%;
+        height: 100%;
+        padding: 0px 4px;
+        border-radius: 4px;
+    
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    
+    .articleContDiv > :nth-child(2){
+        height: 100%;
+    
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    
+    .articleContDiv > :nth-child(3){
+        height: 100%;
+    
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+    }
+
+
+    .lcMidSecondDiv{
+        /* background-color: lightcoral; */
+        height: 110vh;
+    }
+
+    .lcBottomDiv {
+        height: 1.2rem;
+        font-size: 0.9rem;
+        line-height: 18.78px;
+    }
+}
+

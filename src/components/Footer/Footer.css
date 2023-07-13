@@ -132,3 +132,210 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+.Mobcopyright{
+    display: none;
+}
+
+/*  Tablet media */
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+
+    .footParent{
+        margin-top: 80px;
+    }
+    
+    .footChild{
+        width: 88%;
+        height: 297px; 
+        display: flex;
+        justify-content: space-between;
+        /* background-color: blueviolet; */
+
+    }
+
+    .footLeftDiv{
+        width: 25%;
+        height: 60%;
+        gap: 0px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        /* background-color: brown; */
+    }
+    
+    .footLeftLogo{
+        height: 40%;
+    }
+
+    .footLeftSoCo {
+        height: 70%;
+        gap: 0px;
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .socialDiv {
+        height: 25%;
+    }
+
+    .copyright {
+        height: 50%;
+        font-size: 14px;
+    }
+
+    .footRightDiv{
+        width: 70%;
+        height: 60%;
+        gap: 0px;
+    
+        display: flex;
+        justify-content: space-between;
+        /* background-color: darkgreen; */
+    }
+
+    .footRightSubDiv {
+
+    }
+
+    .footTitle {
+        height: 20%;
+        font-size: 1.12rem;
+    }
+
+    .footMenu {
+        height: 80%
+    }
+
+    .footMenu >div {
+        font-size: 0.87rem;
+    }
+    
+    .Mobcopyright{
+        display: none;
+    }
+
+}
+
+/* Mobile Media */
+
+@media screen and (max-width: 426px){
+
+    .footParent{
+        margin-top: 80px;
+    }
+    
+    .footChild{
+        width: 88%;
+        height: 60vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: blue; */
+
+    }
+
+    .footLeftDiv{
+        width: 100%;
+        height: 20%;
+        gap: 0px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    
+        /* background-color: brown; */
+    }
+
+    .footLeftLogo{
+        height: 40%;
+        gap: 0px;
+        /* background-color: darkcyan; */
+    
+    }
+
+    .footLeftSoCo{
+        height: 50%;
+        gap :0px;
+    
+        /* background-color: green; */
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .socialDiv {
+        height: 60%;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footRightDiv{
+        width: 90%;
+        height: 50%;
+        gap: 5%;
+    
+        display: flex;
+        justify-content: space-between;
+        /* background-color: yellow; */
+    }
+
+    .footRightSubDiv {
+        height: 100%;
+    }
+
+    .footRightDiv >div:first-child,
+    .footRightDiv >div:nth-child(2){
+        
+        width: 25%;
+        /* background-color: darkslategrey; */
+    }
+
+    .footRightDiv >div:nth-child(3){
+        /* background-color: palevioletred; */
+        width: 48%;
+    }
+
+    .footTitle {
+        height: 20%;
+        font-size: 1rem;
+    }
+
+    .footMenu {
+        height: 80%
+    }
+
+    .footMenu >div {
+        font-size: 0.8rem;
+        height: 3rem;
+        line-height: 1rem;
+    }
+
+    .Mobcopyright{
+        display: block;
+        height: 5%;
+
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        color: #B6B6B6;
+        font-size: 0.9rem;
+        line-height: 0.75rem;
+        
+        text-align: center;
+        align-items: center;
+        padding-top: 10px;
+
+        /* background-color: deeppink; */
+    }
+
+}

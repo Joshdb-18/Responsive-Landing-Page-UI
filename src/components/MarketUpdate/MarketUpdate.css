@@ -257,6 +257,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: darkred; */
 
     
 }
@@ -293,11 +294,14 @@
     display: flex;
     align-items: center;
     /* background-color: burlywood; */
+    padding: 0px 0px 0px 60px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .tBodyRight > p:first-child{
-    width : 189px;
-    margin: 4px 10px 4px 60px;
+    width : 6vw;
+    /* margin: 4px 10px 4px 60px; */
 
     font-family: Roboto, sans-serif;
     font-weight: 400;
@@ -305,25 +309,33 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-font);
+    /* background-color: darkblue; */
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .tBodyRight > p:nth-child(2){
-    margin: 4px 60px 4px 0px;
+    /* margin: 4px 0px 4px 0px; */
 
     font-family: Roboto, sans-serif;
     font-weight: 400;
+    width: 4vw;
 
     font-size: 16px;
     line-height: 24px;
     color: var(--grey-font);
+    /* background-color: blue; */
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .tBodyRight > img{
-    margin: 4px 60px 4px 75px;
+    /* margin: 4px 60px 4px 120px; */
+    /* background-color: chartreuse; */
 }
 
 .tBodyRight > button{
-    margin: 4px 0px 4px 75px;
+    /* margin: 4px 0px 4px 75px; */
     
 
     background-color: var(--primary-color);
@@ -337,7 +349,7 @@
     border-radius: 10px;
     font-family:'Raleway', sans-serif, Arial;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -365,4 +377,374 @@ a{
 
 a:hover{
     color:#ECF1F0;
+}
+
+
+/*  Tablet media */
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .muParentDiv{
+        margin-top: 80px; 
+        /* background-color: violet; */
+    }
+    
+    .muChildDiv{
+        width: 88%;
+        height: 120vh;   /*To adjust */  
+
+        /* background-color: blueviolet; */
+    }
+
+    .muHeader{
+        font-size: 30px;
+        height: 5%;
+        /* background-color: black ; */
+    
+    }
+
+    /* /*  2 Category Div  /* /* */
+
+    .muCategoryDiv{
+        height: 20%;
+        /* background-color: darkolivegreen; */
+    }
+        
+    .muCatSubDiv{
+        height: 60vh;
+
+        /* display: flex; */
+        flex-direction: column;
+        /* background-color: lightseagreen;  */
+    }
+
+
+    .muCatSubLeft{
+        width: 100%;
+        /* background-color: red; */
+        
+    }
+
+    
+    /* /*  3 Table Div /* /*  */
+
+    .muTableDiv{
+        width: 100%;
+        /* background-color: brown; */
+        height: 60%;
+    }
+
+    .tHeadDiv{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 12px;
+        /* background-color: deeppink; */
+    
+    }
+
+    .tHeadLeft{
+        width: 30vw;
+        /* background-color: cadetblue; */
+        justify-content: normal;
+    }
+    
+    .tHeadLeft >p{
+        font-size: 0.8rem;
+        width: 30%;
+    }
+
+    .tHeadRight{
+        width: 70vw;
+        /* background-color: darkmagenta; */
+        
+        padding: 0px 12px 0px 30px;
+
+    
+    }
+
+    .tHeadRight >p{
+        font-size: 0.9rem;
+    }
+
+    /* Table Body CSS */
+
+    .tBodyDiv{
+
+        height: 62.38px;
+        display: flex;
+        justify-content: space-between;
+    
+        padding: 12px 12px ;  /* same as of theadDiv */
+    
+        align-items: center;
+        /* background-color: darkgreen; */
+    
+    }
+
+    .tBodyLeft{
+        width :25%;
+        height : 40px;
+        /* background-color: dodgerblue; */
+    }
+
+    .tBodyNo{
+        width: 25%;
+        /* background-color: darkorange; */
+    
+    }
+    .tBodyName {
+        width: 60%;
+        /* background-color: indigo; */
+    }
+
+    .tBodyCoinsDiv{
+        width: 30%;
+    }
+
+    .tBodyRight{
+        width : 100%;
+        height : 40px;
+        /* background-color: dimgray; */
+
+    }
+
+    .tBodyRight > p:first-child{
+        width: 10.5vw;
+        font-size: 0.8rem;
+    }
+
+    .tBodyRight > p:nth-child(2){
+        width: 9.5vw;
+        font-size: 0.8rem;
+    }
+
+
+    .tBodyCoinsDiv >img {
+        height : 38px;
+        
+    }
+
+    .tBodyCoinsData > div:first-child, .vl{
+        display: none;
+    }
+    
+    .tBodyCoinsData > div:nth-child(3) {
+        font-size: 0.8rem;  
+
+    }
+    
+    .tBodyRight > button{
+        width: 80px;
+        font-size : 0.8rem;
+    }
+
+    .muLink {
+        height: 5%;
+        font-size: 0.9rem;
+        /* background-color: yellow; */
+    }
+
+
+}
+
+
+/* Mobile Media */
+
+@media screen and (max-width: 426px){
+    .muParentDiv{
+        margin-top: 80px; 
+        /* background-color: violet; */
+    }
+    
+    .muChildDiv{
+        width: 88%;
+        height: 140vh;   /*To adjust */  
+
+        /* background-color: blueviolet; */
+    }
+
+    .muHeader{
+        font-size: 30px;
+        height: 5%;
+        /* background-color: black ; */
+    
+    }
+
+    /* /*  2 Category Div  /* /* */
+
+    .muCategoryDiv{
+        height: 27%;
+        /* background-color: darkolivegreen; */
+    }
+        
+    .muCatSubDiv{
+        height: 80vh;
+        width: 100%;
+
+        /* display: flex; */
+        flex-direction: column;
+        /* background-color: lightseagreen;  */
+    }
+
+
+    .muCatSubLeft{
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 45px 45px 45px; 
+        gap: 5px; 
+        /* background-color: red; */
+        
+    }
+
+    .muCatSubLeft > p {
+        padding: 10px 5px 12px 5px;
+        
+        width: 100%;
+        font-size: 0.9rem;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .muCatSubRight{
+        width: 220px;
+    } 
+
+    
+    /* /*  3 Table Div /* /*  */
+
+    .muTableDiv{
+        width: 100%;
+        /* background-color: brown; */
+        height: 50%;
+    }
+
+    .tHeadDiv{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 12px;
+        /* background-color: deeppink; */
+    
+    }
+
+    .tHeadLeft{
+        width: 30vw;
+        /* background-color: cadetblue; */
+        justify-content: normal;
+    }
+    
+    .tHeadLeft >p{
+        font-size: 0.8rem;
+        width: 30%;
+    }
+
+    .tHeadRight{
+        width: 80vw;
+        /* background-color: darkmagenta; */
+        
+        padding: 0px 10px;
+
+    
+    }
+
+    .tHeadRight >p{
+        font-size: 0.7rem;
+    }
+
+    .tHeadRight >p:nth-child(2){
+        margin: 0px 15px 0px 0px;
+    }
+
+    /* Table Body CSS */
+
+    .tBodyDiv{
+
+        height: 62.38px;
+        display: flex;
+        justify-content: space-between;
+    
+        padding: 12px 12px ;  /* same as of theadDiv */
+    
+        align-items: center;
+        /* background-color: darkgreen; */
+    /*  */
+    }
+
+    .tBodyLeft{
+        width :25%;
+        height : 40px;
+        /* background-color: dodgerblue; */
+    }
+
+    .tBodyNo{
+        width: 15%;
+        /* background-color: darkorange; */
+    
+    }
+    .tBodyNo >p{
+        font-size: 0.7rem;
+    }
+
+    .tBodyName {
+        width: 60%;
+        /* background-color: indigo; */
+    }
+
+    .tBodyCoinsDiv{
+        width: 30%;
+    }
+
+    .tBodyRight{
+        width : 100%;
+        height : 40px;
+        /* background-color: dimgray; */
+        padding: 0px 0px 0px 5px;
+
+    }
+
+    .tBodyRight > p:first-child{
+        width: 10.5vw;
+        font-size: 0.7rem;
+    }
+
+    .tBodyRight > p:nth-child(2){
+        width: 9.5vw;
+        font-size: 0.7rem;
+    }
+
+    .tBodyRight > img {
+        width: 50px;
+    }
+
+    .tBodyCoinsDiv >img {
+        height : 30px;
+        
+    }
+
+    .tBodyCoinsData > div:first-child, .vl{
+        display: none;
+    }
+    
+    .tBodyCoinsData > div:nth-child(3) {
+        font-size: 0.7rem;  
+
+    }
+    
+    .tBodyRight > button{
+        width: 60px;
+        font-size : 0.7rem;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .muLink {
+        height: 4%;
+        font-size: 0.9rem;
+        /* background-color: yellow; */
+    }
+
+
 }

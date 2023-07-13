@@ -62,6 +62,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className='Mobcopyright'>2021 CoinMarketCap. All rights reserved</div>
             </div>
         </section>
     )

@@ -14,6 +14,7 @@ const GetStarted = () => {
                     <div className='geText'>
                         <p className='gsTitle'>How To Get Started</p>
                         <p className='gsSubTitle'>Simple and easy way to start your investment <br/> in cryptocurrency</p>
+                        <p className='gsSubTitleMob'>Simple and easy way to start your investment in cryptocurrency</p>
                     </div>
                     <div className='gsBtn'>
                         <button>Get Started</button>

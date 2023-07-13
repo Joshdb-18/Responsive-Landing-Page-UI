@@ -58,7 +58,7 @@ const MarketUpdate = () => {
                         <p>LAST PRICE</p>
                         <p>CHANGE</p>
                         <p>MARKET STATS</p>
-                        <p>TRADE</p>
+                        <p style={{marginRight : '1vw'}}>TRADE</p>
                     </div>
                 </div>
 
@@ -80,7 +80,7 @@ const MarketUpdate = () => {
                                             <div className='tBodyCoinsData'>
                                                 <div>{data.name}</div>
                                                 <div className="vl"></div>
-                                                <div style={{padding: '4px 10px 4px 10px'}}>{data.symbol}</div>
+                                                <div style={{padding: '4px 7px'}}>{data.symbol}</div>
                                             </div>
                                         </div>
                                     </div>
@@ -96,32 +96,6 @@ const MarketUpdate = () => {
                         )
                     })  
                 }
-                {/*  
-                <table className="table">
-                <thead>
-                    <tr className="tHeadRow" >
-                    <th>NO</th>
-                    <th>NAME</th>
-                    <th>LAST PRICE</th>
-                    <th>CHANGE</th>
-                    <th>MARKET STATS</th>
-                    <th>TRADE</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {Array.from({ length: 7 }).map((_, rowIndex) => (
-                    <tr key={rowIndex}>
-                        {Array.from({ length: 6 }).map((_, colIndex) => (
-                        <td key={colIndex}>
-                            Row {rowIndex + 1}, Col {colIndex + 1}
-                        </td>
-                        ))}
-                    </tr>
-                    ))}
-                </tbody>
-                </table>
-                */}
-
             </div>
 
             {/* * 4 * */}

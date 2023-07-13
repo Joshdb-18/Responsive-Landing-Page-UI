@@ -8,13 +8,12 @@
     /* background-color: blueviolet; */
 }
 
-.mtChildDiv{
+.mtChildDiv {
     width: 1260px;
-    height: 243px; 
+    height: 243px;
     /* background-color: blue; */
     display: block;
 }
-
 
 /* Top Div CSS */
 
@@ -41,8 +40,6 @@
     flex-direction: row;
     justify-content: space-between;
 
-    /* background-color: violet; */
-    /* margin-top: 29px; */
 }
 
 
@@ -81,11 +78,6 @@
     line-height: 50px;
 }
 
-/* .mtCoinInfoChild >img{
-    width: 50px;
-    height: 50px;
-
-} */
 
 .mtCInfoName{
     font-family: Raleway, sans-serif;
@@ -151,5 +143,92 @@
 .chartDiv{
     width: 100px;
     height: 53.27px;
+
+}
+
+
+/*  Tablet media */
+
+@media screen and (min-width: 427px) and (max-width: 768px){
+
+    
+    .mtChildDiv{
+        width: 88%;
+        height: 88vh;
+        /* background-color: rgb(78, 78, 198); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mtTopDiv{
+        height: 12%; /* Adjust OG 32px */
+        text-align: center;
+        font-size: 30px;
+        line-height: 32px;
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .mtBottomDiv{
+        height : 5%; 
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 4rem; 
+
+        justify-content: center;
+        align-items: center;
+    
+        /* background-color: violet; */
+    }
+      
+}
+
+/* Mobile Media */
+
+@media screen and (max-width: 426px){
+
+    .mtChildDiv{
+        height: 150vh;
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* background-color: blue; */
+    }
+
+    .mtTopDiv{
+        height: 7%; /* Adjust OG 32px */
+        text-align: center;
+        font-size: 28px;
+        line-height: 32px;
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .mtBottomDiv{
+        height : 5%; 
+        display: grid;
+        grid-template-columns: 1fr ; 
+        gap: 2rem; 
+
+        justify-content: center;
+        align-items: center;
+    
+        /* background-color: violet; */
+    }
+
+    .mtCoinBox{
+        width: 85vw;
+    }
+
+    .mtCoinValueChild > :first-child {
+        font-size: 20px;
+    }
 
 }

@@ -10,7 +10,7 @@ const StartAndBuild = () => {
                     <div className='sbLeftChildDiv'>
                         <div>Start and Build Your Crypto Portfolio Here</div>
                         <div>Only at CryptoCap, you can build a good portfolio and learn <br/>
-best practices about cryptocurrency.</div>
+                        best practices about cryptocurrency.</div>
                     </div>
                     <button className='sbBtn'>Get Started</button>
                 </div>

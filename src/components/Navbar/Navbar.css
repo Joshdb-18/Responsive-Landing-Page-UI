@@ -14,7 +14,7 @@
 
     background: linear-gradient(to right, #12011F, #170129, #220131, #1E0128, #160121 );
 
-    border: 2px solid;
+    border-bottom: 2px solid;
     border-color: #FFFFFF0D;
 }
 
@@ -150,3 +150,70 @@
     font-size: 16px;
 }
 
+.mobileNav{
+    display: none;
+}
+
+@media screen  and (max-width: 426px){
+
+    .navChildDiv{
+        display: none;
+    }
+
+    /* ChildDiv */
+    .mobileNav{
+        height: 100%;
+        width: 88%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* background-color: blue; */
+        align-items: center;
+    }
+
+    
+    .mobLogo >p{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 28.8px;
+        letter-spacing: 0em;
+        /* background-color: rgb(89, 28, 145); */
+        margin: 0;
+    }
+
+}
+
+
+@media screen  and (min-width: 427px) and (max-width: 768px){
+
+    .navChildDiv{
+        display: none;
+    }
+
+    /* ChildDiv */
+    .mobileNav{
+        height: 100%;
+        width: 88%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* background-color: rgb(78, 78, 198); */
+        align-items: center;
+    }
+
+    
+    .mobLogo >p{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 28.8px;
+        letter-spacing: 0em;
+        /* background-color: rgb(89, 28, 145); */
+        margin: 0;
+    }
+
+    .bi bi-list{
+        height: 100%;
+        width: 88%;
+    }
+
+}

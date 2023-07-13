@@ -1,7 +1,4 @@
-# CryptoCap - Landing page
-
-
-## Try App Here :-  https://landing-page-crypto-cap.netlify.app/
+# Crypto_Currency_Trading_Platform
 
 # To run the application locally, follow these steps :
 

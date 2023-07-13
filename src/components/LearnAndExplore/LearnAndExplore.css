@@ -16,7 +16,7 @@
     padding: 20px 60px;
     border-radius: 12px;
 
-    border: 1px solid;
+    border: 2px solid;
     border-color: #FFFFFF0D;    
 
     align-items: center; /*To align vertically*/
@@ -70,4 +70,108 @@
     font-size: 16px;
     line-height: 24px;
     color:#FFFFFF;
+}
+
+
+/*  Tablet media */
+@media screen and (min-width: 427px) and (max-width: 768px){
+    .leParentDiv{
+        margin-top: 70px;  
+        /* background-color: blueviolet; */
+    }
+
+    .leChildDiv{
+        width: 88%;
+        height: 30vh;
+        padding: 20px;
+        border-radius: 10px;
+        /* background-color: rgb(78, 78, 198); */
+    
+    }
+
+    .leContent{
+        width: 70%;
+        height: 102px;
+        margin: 0px;
+        
+        /* background-color: cornflowerblue; */
+    
+    }
+    
+    .leTitle{
+    
+        font-size: 24px;
+    
+    }
+    
+    .leSubTitle{
+        
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .leBtn{
+        width: 28%;
+        height: 56px;
+    
+        border-radius: 8px;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+/* Mobile Media */
+
+@media screen and (max-width: 426px){
+    .leParentDiv{
+        margin-top: 70px;
+        /* background-color: blueviolet; */
+    }
+
+    .leChildDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 88%;
+        height: 40vh;
+        padding: 20px;
+        border-radius: 10px;
+        /* background-color: rgb(78, 78, 198); */
+    
+    }
+
+    .leContent{
+        width: 95%;
+        height: 20vh;
+        margin: 0px;
+        
+    
+    }
+    
+    .leTitle{
+        text-align: center;
+        height: 10vh;
+        font-size: 24px;
+        /* background-color: cornflowerblue; */
+    
+    }
+    
+    .leSubTitle{
+        font-size: 14px;
+        height: 10vh;
+        line-height: 20px;
+        text-align: justify;
+        /* background-color: chartreuse; */
+    }
+    
+    .leBtn{
+        width: 70%;
+        height: 8vh;
+    
+        border-radius: 8px;
+        font-size: 0.8rem;
+        padding: 14px 15px;
+    }
+    
 }
