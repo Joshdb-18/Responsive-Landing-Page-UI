@@ -1,4 +1,4 @@
-# Landing Page Design using ReactJS
+# Responsive landing page design using ReactJS and Internal CSS
 
 ![CryptoCap Landing Page](https://github.com/AkshataGanbote/Landing_Page_Crypto_Cap/assets/117456092/1321bc2e-bec7-4796-b4d8-2e0ae50b8efb)
 
