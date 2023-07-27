@@ -1,4 +1,7 @@
-# Crypto_Currency_Trading_Platform
+# Landing Page Design using ReactJS
+
+![CryptoCap Landing Page](https://github.com/AkshataGanbote/Landing_Page_Crypto_Cap/assets/117456092/1321bc2e-bec7-4796-b4d8-2e0ae50b8efb)
+
 
 # To run the application locally, follow these steps :
 
