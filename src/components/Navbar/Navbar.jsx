@@ -10,7 +10,7 @@ const Navbar = () => {
             {/* 3 Main Divs */}
 
             <div className='navLeftLogo'>
-              <p>Crypto<span style={{ color: "var(--primary-color)" }}>Cap</span></p>
+              <p>Trading<span style={{ color: "var(--primary-color)" }}>App</span></p>
             </div>
 
             <div className="navItemsDiv">

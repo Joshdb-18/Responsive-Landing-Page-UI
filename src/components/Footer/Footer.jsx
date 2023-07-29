@@ -14,7 +14,7 @@ const Footer = () => {
                 {/* 1 */}
                 <div className='footLeftDiv'>
                     <div className='footLeftLogo'>
-                        <p>Crypto<span style={{ color: "var(--primary-color)" }}>Cap</span></p>
+                        <p>Trading<span style={{ color: "var(--primary-color)" }}>App</span></p>
                     </div>
 
                     <div className='footLeftSoCo'>
@@ -25,7 +25,7 @@ const Footer = () => {
                             <img src={you} alt='img' />
                         </div>
 
-                        <div className='copyright'>2021 CoinMarketCap. All rights reserved</div>
+                        <div className='copyright'>2023 CoinMarketCap. All rights reserved</div>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='Mobcopyright'>2021 CoinMarketCap. All rights reserved</div>
+                <div className='Mobcopyright'>2023 CoinMarketCap. All rights reserved</div>
             </div>
         </section>
     )
