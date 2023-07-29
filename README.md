@@ -1,13 +1,12 @@
 # Crypto_Currency_Trading_Platform
 
-<h3>👋 Introduction </h3>
+<h2>👋 Introduction </h3>
 Beautiful responsive landing page design ui of a Crypto Currency Trading Platform using ReactJS and css. Color Gradient Landing Page design ui for any website.
 
-<h3>▶️ Live Demo  :- <a href="https://responsive-landing-page-design-ui.netlify.app/">Visit </a>
+<h2>▶️ Live Demo  :- <a href="https://responsive-landing-page-design-ui.netlify.app/">Visit </a>
 
-***
 
-<h3>😍  Preview </h3>
+<h2>😍  Preview </h3>
 
 <table>
   <tr>
@@ -25,9 +24,9 @@ Beautiful responsive landing page design ui of a Crypto Currency Trading Platfor
 
 
 
-***
 
-<h3>🛠️ Technology Used</h3>
+
+<h2>🛠️ Technology Used</h3>
 
 This project uses the following technologies:
 
@@ -37,8 +36,8 @@ This project uses the following technologies:
 
 - HTML
 
-***
-<h3>⚙️ Installation & Getting started :</h3>
+
+<h2>⚙️ Installation & Getting started :</h3>
 
 To run the application locally, follow these steps :
 
@@ -54,7 +53,7 @@ To run the application locally, follow these steps :
 
 6. Congratulation 🎉 you have setup the environment successfully
 
-***
+
 
 
 <h2> Do not forget to give a star! ⭐🤗 </h2>
