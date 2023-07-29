@@ -7,12 +7,7 @@ Beautiful responsive landing page design ui of a Crypto Currency Trading Platfor
 
 ***
 
-<!-- <img src="./public/images/laptopss.png" width="150"/> 
-<img src="./public/images/tab1.png" width="150"/> 
-<img src="./public/images/tab2.png" width="150"/>  -->
-
-
-<h3>👋 Preview </h3>
+<h3>😍  Preview </h3>
 
 <table>
   <tr>
@@ -23,7 +18,7 @@ Beautiful responsive landing page design ui of a Crypto Currency Trading Platfor
   <tr>
     <td><img src="./public/images/laptopss.png"></td>
     <td><img src="./public/images/tab1.png"><img src="./public/images/tab2.png"></td>
-    <td><img src="./public/images/mob1.png"><img src="./public/images/mob2.png"></td>
+    <td><img src="./public//images/mob1.png"><img src="./public/images/mob3.png"><img src="./public/images/mob2.png"></td>
   </tr>
 
  </table>
