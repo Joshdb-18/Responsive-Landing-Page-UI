@@ -26,7 +26,7 @@ Beautiful responsive landing page design ui of a Crypto Currency Trading Platfor
 
 
 
-<h2>🛠️ Technology Used</h3>
+<h2>💻 Technology Used</h3>
 
 This project uses the following technologies:
 
