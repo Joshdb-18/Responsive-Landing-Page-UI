@@ -3,7 +3,7 @@
 <h2>👋 Introduction </h3>
 Beautiful responsive landing page ui of a Crypto Currency Trading Platform using ReactJS, HTML5 and CSS3. Color Gradient Landing Page design ui for any website.
 
-<h2>▶️ Live Demo  :- <a href="https://responsive-landing-page-design-ui.netlify.app/" target="_blank">Visit </a>
+<h2>▶️ Live Demo  :- <a href="https://responsive-landing-page-ui.netlify.app/" target="_blank">Visit </a>
 
 
 <h2>😍  Preview </h3>
